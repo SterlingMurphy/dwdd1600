@@ -33,6 +33,7 @@ nav {
     border-style:solid;
     background-color: rgba(240, 255, 255, 0.74); 
     font-size: 20pt;
+    border-top: solid;
 }
   
 fieldset {
@@ -52,3 +53,63 @@ input[type=submit]{
     height: 50px;
     
 }
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav>ul>li {
+    text-align: center;
+}
+
+nav>ul>a {
+    text-decoration: none;
+    color:black;
+}
+
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(images/mainImageClashRoyal.jpg);
+    background-size: cover;
+    background-position: 35%, 40%;
+    max-width: 100%;
+}
+
+header>div {
+    padding-left: 2vw;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+}
+
+/* #region Mobile Styling */
+@media screen and (max-width: 600px){
+    nav>ul {
+        display: block;
+    }
+
+    nav>ul>li {
+        text-align: center;
+    }
+}
+
+/* #endregion */
+
+
+  
+  .hovernow {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .hovernow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }

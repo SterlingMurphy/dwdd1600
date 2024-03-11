@@ -1,0 +1,48 @@
+/* #region Main Styling */
+
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(images/bread.jpg);
+    background-size: cover;
+    background-position: 35%, 40%;
+}
+
+header>div {
+    padding-left: 2vw;
+}
+
+nav {
+    border-top: solid;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 2vw;
+}
+
+nav>ul>li {
+    border: dashed;
+
+}
+
+nav>li>a {
+    text-decoration: none;
+    color: bisque;
+}
+/* #endregion */
+
+/* #region Mobile Styling */
+@media screen and (max-width: 600px){
+    nav>ul {
+        display: block;
+    }
+
+    nav>ul>li {
+        text-align: center;
+    }
+}
+
+/* #endregion */
