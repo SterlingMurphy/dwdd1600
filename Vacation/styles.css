@@ -1,0 +1,96 @@
+h1{
+    color: rgb(226, 43, 43); 
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+ul{
+    border-style: solid;
+}
+
+nav>ul {
+    display: block;
+    font-size: 25pt;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+footer>p{
+    color: mediumorchid;
+    font-size: 15pt;
+    border-style: solid;
+    border-color: black;
+    text-shadow: 0 0 3px #000000;
+}
+
+nav>ul>a {
+    text-align: left;
+    border-style: none;
+    color: green;
+    text-shadow: 0 0 3px #000000;
+}
+
+p{
+    font-size: 20pt;
+}
+img{
+    height: 60;
+    width: 60;
+}
+
+fieldset {
+    color: rgb(255, 0, 0);
+}
+
+legend {
+    color: rgb(3, 92, 0);
+}
+
+input[type=submit]{
+
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    
+}
+@media screen and (max-width: 600px){
+    nav>ul {
+        display: block;
+        text-shadow: 0 0 3px #000000;
+    }
+
+    nav>ul>a {
+        text-align: center;
+        border-style: solid;
+        font-size: 10pt;
+        text-shadow: 0 0 3px #000000;
+    }
+    h1{
+        font-size: 9pt;
+        text-shadow: 0 0 3px #000000;
+    }
+    footer>p{
+        font-size: 5pt;
+        text-shadow: 0 0 3px #000000;
+    }
+    p{
+        font-size: 5pt;
+    }
+}
+
+.hovernow {
+    height: 200;
+    margin: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 100;
+  }
+  
+  .hovernow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
